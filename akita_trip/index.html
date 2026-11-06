@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#132c2c">
+  <meta name="description" content="湖と秘湯と日本海。秋田の絶景・美食・文化を味わう2泊3日の旅のしおり。">
+  <title>あきた、心ほどける3日間。｜旅のしおり</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="progress" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top"><span class="logo-mark">秋</span><span>AKITA <small>TRAVEL JOURNAL</small></span></a>
+    <nav aria-label="メインナビゲーション"><a href="#highlights">旅の魅力</a><a href="#itinerary">旅程</a><a href="#food">秋田グルメ</a><a href="#guide">旅の準備</a></nav>
+    <button class="header-cta" id="printTop" type="button">しおりを印刷 ↗</button>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="秋田旅行のメインビジュアル">
+      <div class="hero-image"></div><div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow light"><span class="gold-line"></span> 2 NIGHTS / 3 DAYS · AKITA, JAPAN</p>
+        <h1>あきた、<br><em>心ほどける</em><br>3日間。</h1>
+        <p class="hero-lead">息をのむほど青い湖。森の奥に湧く秘湯。<br>夕日に染まる日本海。<br>まだ知らない日本の美しさに、会いに行こう。</p>
+        <div class="hero-actions"><a href="#itinerary" class="btn btn-primary">旅のプランを見る <span>↗</span></a><a href="#highlights" class="btn btn-outline">秋田の魅力を発見 ↓</a></div>
+        <div class="hero-foot"><span>SCROLL TO EXPLORE</span><span class="scroll-rule"></span><span>01 / 03</span></div>
+      </div>
+      <div class="hero-side">DISCOVER THE BEAUTY OF AKITA · JAPAN</div>
+    </section>
+
+    <section class="intro section container" id="highlights">
+      <div class="intro-heading"><div><p class="eyebrow">THE JOURNEY BEGINS</p><h2>週末を、<br><span class="accent">忘れられない旅</span>に。</h2></div><p class="intro-copy">ちょっと遠くへ行きたいと思ったら、秋田へ。江戸の風情が残る町を歩き、透き通る湖に見とれ、森に包まれた温泉で深呼吸。五感がよろこぶ景色を、2泊3日に詰め込みました。</p></div>
+      <div class="stats"><div><strong>2<span>泊</span>3<span>日</span></strong><small>心ときめく小旅行</small></div><div><strong>6<span>つの</span></strong><small>とっておきの体験</small></div><div><strong>100<span>%</span></strong><small>秋田を好きになる気持ちで</small></div></div>
+      <div class="feature-grid">
+        <article class="feature feature-large"><img src="https://media.timeout.com/images/106164075/1372/1029/image.jpg" alt="角館武家屋敷通りの桜並木" loading="lazy"><div class="feature-text"><span>01 · HISTORY</span><h3>時を越えて、<br>小京都へ。</h3><p>角館・武家屋敷通り</p></div></article>
+        <article class="feature"><img src="https://d1grca2t3zpuug.cloudfront.net/2025/12/4329010_m-800x534-1765261291.webp" alt="田沢湖のたつこ像と青い湖面" loading="lazy"><div class="feature-text"><span>02 · NATURE</span><h3>吸い込まれる<br>青に出会う。</h3><p>田沢湖</p></div></article>
+        <article class="feature"><img src="https://my10.jp/images/tsurunoyu-onsen-01.jpg" alt="森に囲まれた乳頭温泉郷の温泉宿" loading="lazy"><div class="feature-text"><span>03 · RELAX</span><h3>森の秘湯で<br>何もしない贅沢。</h3><p>乳頭温泉郷</p></div></article>
+      </div>
+    </section>
+
+    <section class="quote-band"><p>旅の目的地は、<br><em>「また来たい」と思える景色。</em></p><span>— THE AKITA EXPERIENCE —</span></section>
+
+    <section class="itinerary-section section" id="itinerary"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">YOUR THREE-DAY ITINERARY</p><h2>3日間の、<span class="accent">旅の物語。</span></h2></div><p>観光も、温泉も、美味しいものも。<br>余白まで楽しむ、ちょうどいい旅へ。</p></div>
+      <div class="day-tabs" role="tablist" aria-label="日別旅程"><button class="day-tab active" data-day="1" role="tab" aria-selected="true" aria-controls="day-panel">DAY 01 <small>歴史と湖、森の秘湯</small></button><button class="day-tab" data-day="2" role="tab" aria-selected="false" aria-controls="day-panel">DAY 02 <small>男鹿半島と日本海</small></button><button class="day-tab" data-day="3" role="tab" aria-selected="false" aria-controls="day-panel">DAY 03 <small>秋田の食と街を巡る</small></button></div>
+      <div id="day-panel" role="tabpanel" aria-live="polite"></div>
+      <div class="itinerary-note">※ 時間はモデルプランです。秋田空港10:00頃着、最終日17:00以降発を想定。レンタカー移動・道路状況・施設営業時間により調整してください。</div>
+    </div></section>
+
+    <section class="full-bleed"><img src="https://www.jreast.co.jp/akita/touring-guide/img/cs3-spot7.jpg" alt="入道崎灯台と日本海の夕焼け" loading="lazy"><div class="full-bleed-overlay"><span>THE MOMENT YOU'LL REMEMBER</span><h2>この夕日は、<br>きっと一生忘れない。</h2><p>男鹿半島・入道崎にて</p></div></section>
+
+    <section class="food-section section container" id="food"><div class="section-heading"><div><p class="eyebrow">TASTE OF AKITA</p><h2>旅の記憶は、<span class="accent">おいしい。</span></h2></div><p>秋田のごちそうを食べずに帰るなんて、<br>もったいない。</p></div>
+      <div class="food-grid"><div class="food-main"><img src="https://shun-gate.com/wp-content/uploads/2025/02/akita_kiritanpo_TOP-1536x1025.jpg" alt="秋田名物きりたんぽ鍋" loading="lazy"><div class="food-caption"><span>THE SOUL FOOD</span><h3>きりたんぽ鍋</h3><p>比内地鶏の旨みが染み込んだ、秋田のあったかい幸せ。</p></div></div><div class="food-side"><div class="food-mini"><span>01 / NOODLES</span><h3>稲庭うどん</h3><p>つるり、なめらか。上品なのどごしに感動。</p></div><div class="food-mini"><span>02 / LOCAL SPECIALTY</span><h3>しょっつる料理</h3><p>魚醤の深い味わいが、秋田の海の恵みを伝える。</p></div><div class="food-mini"><span>03 / SWEETS</span><h3>ババヘラアイス</h3><p>バラの花みたいな盛り付けがかわいい、秋田の名物アイス。</p></div><div class="food-mini"><span>04 / LOCAL SAKE</span><h3>秋田の地酒</h3><p>清らかな水と米から生まれた一杯。大人の旅の楽しみ。</p></div></div></div>
+    </section>
+
+    <section class="guide-section section" id="guide"><div class="container"><div class="section-heading"><div><p class="eyebrow">BEFORE YOU GO</p><h2>旅の準備も、<span class="accent">わくわく。</span></h2></div><p>出発前にチェックして、<br>安心して秋田を満喫しよう。</p></div>
+      <div class="guide-grid"><article class="guide-card"><div class="card-top"><span class="icon-circle">✦</span><span>01 / TRIP INFO</span></div><h3>旅の基本情報</h3><div class="trip-info"><label for="startDate">出発日を設定</label><input type="date" id="startDate"><p id="dateSummary" class="date-summary">日程を選ぶと3日間の日付が表示されます。</p><div class="info-row"><span>交通手段</span><strong>秋田空港発着・レンタカー</strong></div><div class="info-row"><span>1泊目</span><strong>乳頭温泉郷周辺</strong></div><div class="info-row"><span>2泊目</span><strong>男鹿温泉郷周辺</strong></div><div class="info-row"><span>旅行スタイル</span><strong>絶景 × 温泉 × グルメ</strong></div></div><button class="text-button" id="printGuide">旅のしおりを印刷する ↗</button></article>
+      <article class="guide-card"><div class="card-top"><span class="icon-circle">✓</span><span>02 / PACKING LIST</span></div><h3>忘れ物チェック</h3><div class="packing-top"><span>準備の進み具合</span><strong id="packingPercent">0%</strong></div><div class="packing-bar"><span id="packingBar"></span></div><div class="packing-list" id="packingList"><label><input type="checkbox" data-item="免許証・ETCカード"><span>免許証・ETCカード</span></label><label><input type="checkbox" data-item="スマホ・充電器"><span>スマホ・充電器</span></label><label><input type="checkbox" data-item="歩きやすい靴"><span>歩きやすい靴</span></label><label><input type="checkbox" data-item="羽織もの・防寒着"><span>羽織もの・防寒着</span></label><label><input type="checkbox" data-item="温泉用の小さなタオル"><span>温泉用の小さなタオル</span></label><label><input type="checkbox" data-item="カメラ・モバイルバッテリー"><span>カメラ・モバイルバッテリー</span></label><label><input type="checkbox" data-item="常備薬・保険証"><span>常備薬・保険証</span></label></div><button class="text-button" id="resetPacking">チェックをリセット ↺</button></article>
+      <article class="guide-card"><div class="card-top"><span class="icon-circle">¥</span><span>03 / ESTIMATED BUDGET</span></div><h3>予算の目安</h3><div class="budget-list"><div><span>宿泊（2泊）</span><strong>¥24,000〜48,000</strong></div><div><span>食事・カフェ</span><strong>¥12,000〜18,000</strong></div><div><span>レンタカー・燃料等</span><strong>¥12,000〜22,000</strong></div><div><span>体験・入館等</span><strong>¥3,000〜6,000</strong></div></div><div class="budget-total"><small>目安合計 / 1人</small><strong>¥51,000<span>〜</span>94,000</strong></div><p class="fineprint">※ 2名で車・客室を利用する想定の概算。航空券・新幹線代は別。宿泊料金・季節等で変動します。</p></article></div>
+      <div class="map-cta"><div><span class="eyebrow">LET'S HIT THE ROAD</span><h3>地図を開いて、秋田へ出発。</h3><p>立ち寄りスポットをGoogleマップで確認できます。</p></div><a class="btn btn-dark" href="https://www.google.com/maps/dir/?api=1&origin=%E7%A7%8B%E7%94%B0%E7%A9%BA%E6%B8%AF&destination=%E7%A7%8B%E7%94%B0%E7%A9%BA%E6%B8%AF&waypoints=%E8%A7%92%E9%A4%A8%E6%AD%A6%E5%AE%B6%E5%B1%8B%E6%95%B7%7C%E7%94%B0%E6%B2%A2%E6%B9%96%7C%E4%B9%B3%E9%A0%AD%E6%B8%A9%E6%B3%89%E9%83%B7%7C%E3%81%AA%E3%81%BE%E3%81%AF%E3%81%92%E9%A4%A8%7C%E5%85%A5%E9%81%93%E5%B4%8E%7C%E7%A7%8B%E7%94%B0%E5%B8%82&travelmode=driving" target="_blank" rel="noopener noreferrer">Googleマップでルートを見る ↗</a></div>
+      <p class="safety-note">冬季は積雪・凍結、山間部の道路規制に注意。乳頭温泉の日帰り入浴・宿泊、男鹿の体験施設の営業状況は事前に公式情報をご確認ください。掲載写真は季節のイメージであり、旅行日の景色を保証するものではありません。</p>
+    </div></section>
+    <section class="end-section"><p>AKITA IS CALLING</p><h2>次の旅は、<br><em>秋田にしよう。</em></h2><a href="#top" class="btn btn-outline">ページの先頭に戻る ↑</a></section>
+  </main>
+  <footer><div class="container footer-inner"><div class="logo footer-logo"><span class="logo-mark">秋</span><span>AKITA <small>TRAVEL JOURNAL</small></span></div><p>秋田、2泊3日。景色も時間も、旅の宝物に。</p><small>旅程・予算はモデルプランです。画像表示にはインターネット接続が必要です。</small></div></footer>
+</body>
+</html>
